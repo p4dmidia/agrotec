@@ -1,0 +1,76 @@
+Quando o usuário escolher o modo Diagnóstico:
+
+Ele poderá descrever um problema (ex: manchas nas folhas, broca, murcha, etc.) ou enviar uma imagem.
+
+A IA deve analisar a descrição/imagem, identificar o possível problema e gerar um relatório técnico com as seguintes seções:
+
+📄 FORMATO DO RELATÓRIO DE DIAGNÓSTICO
+Nome do Produtor (puxado do perfil)
+
+Cultura e variedade (ex: Banana-prata)
+
+Descrição do problema relatado
+
+Diagnóstico provável (ex: Sigatoka-negra)
+
+Nome(s) comum(ns) da doença/praga
+
+Causa provável (fungo, inseto, deficiência, etc.)
+
+Sintomas típicos (com bullet points)
+
+Orientações de manejo:
+
+Práticas culturais
+
+Biológicas (se houver)
+
+Químicas com recomendação de princípios ativos
+
+Precauções com uso contínuo (resistência, carência, reentrada)
+
+Princípios Ativos Recomendados:
+
+Nome técnico (ex: Difenoconazol)
+
+Nome comercial sugerido (ex: Score®)
+
+Classe (fungicida, sistêmico, triazol)
+
+Intervalo de segurança e restrições
+
+Data do diagnóstico
+
+Assinatura virtual: Dr. Agro – Diagnóstico Gerado por IA
+
+📎 AÇÕES APÓS O DIAGNÓSTICO:
+Após o relatório ser gerado, mostrar 4 botões:
+
+[📄 Baixar em PDF]
+
+Gera o relatório completo em PDF com identidade visual da plataforma.
+
+[🖨️ Imprimir Relatório]
+
+Dispara a função de impressão padrão do navegador.
+
+[💬 Falar com Agrônomo via WhatsApp]
+
+Mostrado somente se o plano do usuário for Pro ou Premium.
+
+Redireciona para o número oficial do agrônomo parceiro da plataforma via link WhatsApp com mensagem pré-preenchida:
+
+"Olá, recebi um diagnóstico no Dr. Agro e preciso de ajuda. Pode me orientar?"
+
+[📧 Enviar por E-mail]
+
+Envia o relatório completo para o e-mail do agrônomo vinculado ao produtor (campo configurável).
+
+Disponível para todos os níveis de plano.
+
+🧩 INTEGRAÇÃO:
+A IA deve aproveitar a base técnica existente (82 pastas da bananicultura) para fornecer os diagnósticos com base científica.
+
+Diagnósticos ficam salvos no histórico do produtor, com filtros por data e cultura.
+
+Por favor, implemente esse fluxo completo com foco em usabilidade, clareza das orientações e diferenciação por tipo de plano (para liberar WhatsApp apenas para usuários elegíveis).
